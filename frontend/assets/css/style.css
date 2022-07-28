@@ -39,3 +39,90 @@ img:hover {
   opacity: 1;
   transition: opacity 0.25s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+#__next {
+  width: 100%;
+  height: 100%;
+}
+
+.js-title {
+  padding: 0.5rem 1.5rem;
+  width: 100%;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #212121;
+}
+
+.js-container {
+  width: 100%;
+  height: 100%;
+  padding: 1.5rem;
+  /* background-color: #f00; */
+}
+
+.js-calendar {
+  width: 100%;
+  max-width: 24rem;
+}
+
+.js-form {
+  width: 20%;
+  min-width: 15rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.js-form-item {
+  margin: 0.5rem 0 !important;
+}
+
+.js-upload {
+  width: 5rem;
+  height: 2rem;
+  border: 0.2rem solid #c1c1c1;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.js-upload:hover {
+  cursor: pointer;
+}
+
+.js-field-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.js-field-list-item {
+  width: 100%;
+  max-width: 20rem;
+  /* height: 40rem; */
+  margin: 1rem 0;
+  /* background-color: #ff0; */
+  border: 4px dashed #c1c1c1;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2rem;
+}
+
+.js-field-list-item-desc {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.js-field-list-item-img {
+  width: 100%;
+}

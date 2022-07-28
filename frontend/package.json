@@ -12,6 +12,11 @@
     "lint:fix": "next lint --fix"
   },
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "antd": "^4.22.1",
+    "axios": "^0.27.2",
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-import": "^1.13.5",
     "moment": "^2.24.0",
     "next": "^11.0.0",
     "qs": "^6.10.1",

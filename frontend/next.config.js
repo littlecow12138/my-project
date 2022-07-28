@@ -1,6 +1,7 @@
 /**
  * @type {import('next').NextConfig}
  */
+// const withCss = require("@zeit/next-css")
 const nextConfig = {
   images: {
     loader: "default",
@@ -9,3 +10,4 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
+// module.exports = withCss({})
